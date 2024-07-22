@@ -6,6 +6,7 @@
 - `pip install langchain`
 - `pip install langchain-community langchainhub neo4j`
 - `pip install openai langchain-openai`
+- `pip install youtube-search`
 
 ## Graph Database (Neo4j)
 - Create local instance or Get sandbox URL
