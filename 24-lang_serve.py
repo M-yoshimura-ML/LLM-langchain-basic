@@ -1,5 +1,12 @@
 # pip install fastapi uvicorn
 # pip install langserve
+"""
+LangServe:
+helps developers deploy LangChain runnables and chains as a REST API.
+you can see API docs with : http://localhost:8000/docs
+
+https://python.langchain.com/v0.2/docs/langserve/
+"""
 from dotenv import load_dotenv
 from fastapi import FastAPI
 from langchain_core.prompts import ChatPromptTemplate
