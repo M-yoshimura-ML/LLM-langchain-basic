@@ -1,7 +1,7 @@
 import sqlite3
 
 # connect to sqlite
-connection = sqlite3.connect("student.db")
+connection = sqlite3.connect("../student.db")
 
 # Create a cursor object to insert record, create table
 cursor = connection.cursor()
